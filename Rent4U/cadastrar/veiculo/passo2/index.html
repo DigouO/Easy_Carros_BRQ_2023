@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent4u</title>
+    <link rel="stylesheet" href="../../../layout.css" />
+  </head>
+  <body>
+    <div class="header">
+      <button onclick="history.back()" class="header-back">< Voltar</button>
+      Cadastrar Veículo
+    </div>
+    <main>
+      <span> Passo 2 de 3 </span>
+      <span class="title">Cadastro de Informações do Veículo:</span>
+      <form>
+        <div class="input-container i-medium">
+          <label for="modelo">Modelo do carro:</label>
+          <input id="modelo" type="text" />
+        </div>
+        <div class="input-container i-small">
+          <label for="ano">Ano:</label>
+          <input id="ano" type="text" />
+        </div>
+        <div class="input-container i-medium">
+          <label for="cor">Cor:</label>
+          <input id="cor" type="text" />
+        </div>
+        <div class="input-container i-medium">
+          <label for="placa">Placa:</label>
+          <input id="placa" type="text" />
+        </div>
+        <div class="input-container i-medium">
+          <label for="renavam">Renavam:</label>
+          <input id="renavam" type="text" />
+        </div>
+      </form>
+      <span class="span-b">Upload das fotos do veículo: </span>
+      <div class="box">
+        <div id="images"></div>
+        <img
+          src="../../../assets/icons/left.svg"
+          class="back"
+          onclick="back()"
+        />
+        <img
+          src="../../../assets/icons/right.svg"
+          class="next"
+          onclick="next()"
+        />
+      </div>
+
+      <a class="btt b-red" href="../passo3/index.html">Continuar</a>
+    </main>
+    <iframe
+      class="nav-iframe"
+      height="60"
+      frameborder="0"
+      src="../../../components/bottom-nav/index.html"
+    ></iframe>
+    <script type="text/javascript" src="../slider.js"></script>
+  </body>
+</html>

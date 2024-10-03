@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent4u</title>
+    <link rel="stylesheet" href="../../../layout.css" />
+  </head>
+  <body>
+    <div class="header">
+      <button onclick="history.back()" class="header-back">< Voltar</button>
+      Cadastrar Veículo
+    </div>
+    <main>
+      <span> Passo 1 de 3 </span>
+      <span class="title">Cadastro de Informações Pessoais:</span>
+      <form>
+        <div class="input-container i-large">
+          <label for="nome">Nome Completo:</label>
+          <input id="nome" type="text" />
+        </div>
+        <div class="input-container i-medium">
+          <label for="rg">RG:</label>
+          <input id="rg" type="text" />
+        </div>
+        <div class="input-container i-medium">
+          <label for="cnh">CNH:</label>
+          <input id="cnh" type="text" />
+        </div>
+        <div class="input-container i-large">
+          <label for="endereco">Endereço:</label>
+          <input id="endereco" type="text" />
+        </div>
+        <div class="input-container i-medium">
+          <label for="bairro">Bairro:</label>
+          <input id="bairro" type="text" />
+        </div>
+        <div class="input-container i-medium">
+          <label for="cidade">Cidade:</label>
+          <input id="cidade" type="text" />
+        </div>
+      </form>
+      <a class="btt b-red" href="../passo2/index.html">Continuar</a>
+    </main>
+    <iframe
+      class="nav-iframe"
+      height="60"
+      frameborder="0"
+      src="../../../components/bottom-nav/index.html"
+    ></iframe>
+  </body>
+</html>

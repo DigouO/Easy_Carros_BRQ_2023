@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent4u</title>
+    <link rel="stylesheet" href="../../layout.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="header">
+      <button onclick="history.back()" class="header-back">< Voltar</button>
+      Alugar Veículo
+    </div>
+    <main>
+      <span> Passo 5 de 6 </span>
+
+      <span class="title">Metodos de pagamento: </span>
+      <table>
+        <tbody>
+          <tr>
+            <td>Total:</td>
+            <td>R$100,00</td>
+          </tr>
+          <tr>
+            <td>Total dos dias contratados:</td>
+            <td>R$100,00</td>
+          </tr>
+          <tr>
+            <td>Valor do seguro obrigatório:</td>
+            <td>R$60,000</td>
+          </tr>
+          <tr>
+            <td>Outras taxas:</td>
+            <td>R$40,00</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="white-box-small">
+        <span class="title">Para adicionar serviços: </span>
+        <span class="plus-box">+</span>
+      </div>
+      <div class="payment-box">
+        <div class="payment-method">Escolha a forma de pagamento</div>
+        <div class="payment-method">
+          <img src="../../assets/images/cartao.png" />
+          Cartão de credito
+          <input name="method" class="radio-in" type="radio" />
+        </div>
+        <div class="payment-method">
+          <img src="../../assets/images/pix.png" />
+          Pix
+          <input name="method" class="radio-in" type="radio" />
+        </div>
+        <div class="payment-method">
+          <img src="../../assets/images/boleto.png" />
+          Boleto
+          <input name="method" class="radio-in" type="radio" />
+        </div>
+      </div>
+      <a class="btt b-red" href="../passo6/index.html">Continuar</a>
+    </main>
+    <iframe
+      class="nav-iframe"
+      height="60"
+      frameborder="0"
+      src="../../components/bottom-nav/index.html"
+    ></iframe>
+    <script type="text/javascript" src="../slider.js"></script>
+  </body>
+</html>

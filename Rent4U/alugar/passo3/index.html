@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent4u</title>
+    <link rel="stylesheet" href="../../layout.css" />
+  </head>
+  <body>
+    <div class="header">
+      <button onclick="history.back()" class="header-back">< Voltar</button>
+      Alugar Veículo
+    </div>
+    <main>
+      <span> Passo 3 de 6 </span>
+      <div class="user-card" href="../passo3/index.html">
+        <div class="user-photo-board">
+          <img src="../../assets/icons/user2.svg" />
+        </div>
+        <div class="user-card-info">
+          <span class="user-card-name">Nara Caproni</span>
+          <span>Chevrolet Onix - Automático/2020 - Vermelho</span>
+        </div>
+      </div>
+      <div class="box">
+        <div id="images"></div>
+        <img src="../../assets/icons/left.svg" class="back" onclick="back()" />
+        <img src="../../assets/icons/right.svg" class="next" onclick="next()" />
+      </div>
+      <div class="white-box">
+        <span class="title">Informações do Veículo</span>
+        <div class="input-container i-medium">
+          <label for="modelo">Modelo do carro:</label>
+          <input
+            id="modelo"
+            type="text"
+            placeholder="Chevrolet Onix"
+            disabled
+          />
+        </div>
+        <div class="input-container i-small">
+          <label for="ano">Ano:</label>
+          <input id="ano" type="text" placeholder="2020" disabled />
+        </div>
+        <div class="input-container i-medium">
+          <label for="cor">Cor:</label>
+          <input id="cor" type="text" placeholder="Vermelho" disabled />
+        </div>
+        <div class="input-container i-medium">
+          <label for="placa">Placa:</label>
+          <input id="placa" type="text" placeholder="XXXXXXX" disabled />
+        </div>
+        <div class="input-container i-medium">
+          <label for="renavam">Renavam:</label>
+          <input
+            id="renavam"
+            type="text"
+            placeholder="XXXXXXXXXXXXXXXXXXXX"
+            disabled
+          />
+        </div>
+      </div>
+      <a class="btt b-red" href="../passo4/index.html">Continuar</a>
+    </main>
+    <iframe
+      class="nav-iframe"
+      height="60"
+      frameborder="0"
+      src="../../components/bottom-nav/index.html"
+    ></iframe>
+    <script type="text/javascript" src="../slider.js"></script>
+  </body>
+</html>
