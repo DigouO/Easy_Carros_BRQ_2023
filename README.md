@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/DigouO" target="_blank"><img align="center" width="150px" src="./assets/images/fiap.png" /></a>
+<a href="https://github.com/DigouO" target="_blank"><img align="center" width="150px" src="./Rent4U/assets/images/fiap.png" /></a>
 <h1>Challenge BRQ - 2º Etapa</h1>
 <h3>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - FIAP</h3>
 </div>
@@ -28,7 +28,7 @@ Segundo semestre:
 
  ### Insights:
  
-<img src="./assets/images/Insights_Rent4U.png" width="60%"><br>
+<img src="./Rent4U/assets/images/Insights_Rent4U.png" width="60%"><br>
 <em>Transação.</em>
 </div>
 
@@ -36,32 +36,38 @@ Segundo semestre:
 
  ### Mercado e Custo:
  
-<img src="./assets/images/Mercado_Custo.png" width="60%"><br>
+<img src="./Rent4U/assets/images/Mercado_Custo.png" width="60%"><br>
 <em>Transação.</em>
 </div>
 
 <div align="center">
 
  ### Alugar Carros:
- 
-<img src="./assets/images/alugarVeiculos.gif" width="60%"><br>
+<details>
+<summary>Demonstração</summary>
+<img src="./Rent4U/assets/images/alugarVeiculos.gif" width="40%"><br>
 <em>Transação.</em>
+</details>
 </div>
 
+ 
 <div align="center">
 
  ### Cadastrar Veiculos:
- 
-<img src="./assets/images/cadastrarVeiculos.gif" width="60%"><br>
+<details>
+<summary>Demonstração</summary>
+<img src="./Rent4U/assets/images/cadastrarVeiculos.gif" width="40%"><br>
 <em>Transação.</em>
+</details>
 </div>
+
 
 <div align="center">
 
 ## MEER - MODELAGEM DE DADOS:
 
 
-<img src="./assets/images/modelagemDados.png" width="60%"><br>
+<img src="./Rent4U/assets/images/modelagemDados.png" width="60%"><br>
 <em>Transação.</em>
 
 </div>
@@ -71,7 +77,7 @@ Segundo semestre:
 ## DIAGRAMA DE CLASSES:
 
 
-<img src="./assets/images/diagramaClasses.png" width="60%"><br>
+<img src="./Rent4U/assets/images/diagramaClasses.png" width="60%"><br>
 <em>Transação.</em>
 
 </div>
