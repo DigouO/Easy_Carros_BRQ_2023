@@ -80,4 +80,13 @@ Segundo semestre:
 <img src="./Rent4U/assets/images/diagramaClasses.png" width="60%"><br>
 <em>Transação.</em>
 
+
+
+## 🛠️ Tecnologias/ Ferramentas
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+<a href=" " target="_blank"><img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" /></a><a href=" " target="_blank"><img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" /></a><a href=" " target="_blank"><img  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></a><a href="https://getbootstrap.com" target="_blank"><img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" /></a>
+
+Feito por Rodrigo F. Ribeiro   [ 🌐 LinkedIn.](www.linkedin.com/in/rodrigofribeiro95)
 </div>
