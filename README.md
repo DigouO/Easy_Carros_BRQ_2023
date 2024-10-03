@@ -56,4 +56,23 @@ Segundo semestre:
 <em>Transação.</em>
 </div>
 
+<div align="center">
+
+## MEER - MODELAGEM DE DADOS:
+
+
+<img src="./assets/images/modelagemDados.png" width="60%"><br>
+<em>Transação.</em>
+
+</div>
+
+<div align="center">
+
+## DIAGRAMA DE CLASSES:
+
+
+<img src="./assets/images/diagramaClasses.png" width="60%"><br>
+<em>Transação.</em>
+
+</div>
 
